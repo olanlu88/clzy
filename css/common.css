@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 幼圆;
+    color: #fff;
+    position: relative;
+}
+.header{
+    background-size: cover;
+    width:auto;
+    height: 600px;
+    position: relative;
+}
+.position{
+    z-index: 2;
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 60px;
+    background-image: linear-gradient(to bottom right, #9aa4ff, #a1fcc5);
+    opacity: 0.8;
+}
+.position h1{
+    color:#fff;
+    float: left;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav{
+    float: left;
+    margin-left: 500px;
+    height: 60px;
+}
+.nav li{
+    margin-right: 46px;
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+    columns: #000000;
+    list-style: none;
+}
+.nav li a{
+    padding-bottom: 7px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav li a:hover{
+    color: #27ba96;
+    border-bottom: 3px solid #27ba96;
+}
+.header .title{
+    position: absolute;
+    bottom: 250px;
+    left:25%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.header .description{
+    position: absolute;
+    bottom: 200px;
+    left:25%;
+    font-size: 28px;
+    font-weight: bold;
+}
+button{
+    position: absolute;
+    left:42%;
+    bottom: 30px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.88);
+    opacity: 0.5;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 200px;
+    height: 50px;
+}
+button a{
+    text-decoration: none;
+}
+button :active{
+    box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.88);
+    transform: translateY(4px);
+}
+button>a>p{
+    color:#000;
+    font-size: 32px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.black{
+    width: auto;
+    height: 600px;
+    background-color: rgba(0,0,0,0.2);
+}
+.foot{
+    width: 100%;
+    height: 184px;
+    background-color: #d8d8d8;
+    position: relative;
+    /* position: absolute;
+    bottom: 0; */
+}
+.explain{
+    text-align: center;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #515151;
+    font-size: 18px;
+}
+.foot hr{
+    width: 80%;
+    height: 2px;
+    color: #515151;
+    margin: 15px;
+    margin-left: 10%;
+}
+.foot_father{
+    height: 60px;
+    width: auto;
+    position: absolute;
+    left: 40%;
+}
+.foot_son{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.foot_son span{
+    color: #515151;
+}
+.foot_son img{
+    width: 25px;
+    height: 25px;
+}

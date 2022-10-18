@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.cat{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/封面.gif);
+    background-size: cover;
+    position: relative;
+}
+.cat .grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    z-index: 1;
+    width: 650px;
+    height: 650px;
+    margin-left: 2%;
+    position: relative;
+}
+.pages{
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    background-color: rgba(255, 255,255, .3);
+    transition: all 1s;
+}
+.pages:hover{
+    transform: translateY(12px);
+}
+.tupian{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+}
+.page1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: relative;
+}
+.page2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: relative;
+}
+.page3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: relative;
+}
+.page4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    transition: all 1s;
+}
+a:hover{
+    transform: translateY(12px);
+}

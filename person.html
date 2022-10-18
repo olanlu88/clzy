@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人分享</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/person.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 快捷导航 -->
+        <div class="position">
+            <div>
+                <h1>olanlu&nbsp;|&nbsp;blog</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="filing.html">picture</a></li>
+                    <li><a href="links.html">links</a></li>
+                    <li><a href="person.html">share</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="black"></div>
+        <!-- title -->
+        <div class="title wow pulse">
+            <p>olanlu</p>
+        </div>
+        <!-- 描述 -->
+        <div class="description wow pulse">
+            <p>宸游不为三元夜，乐事还同万众心。</p>
+        </div>
+        <!-- 开始阅读 -->
+        <button>
+            <a href="#lablep"><p>开始浏览</p></a>
+        </button>      
+    </div>
+
+    <!-- 读物分享 -->
+    <p><a name="lablep">&nbsp;</a></p>
+    <div class="text">书中自有颜如玉</div>
+    <div class="read">
+        <div class="read_father">
+            <a href="#">
+                <div class="read_child wow slideInRight">
+                    <img src="./img/乔布斯传.jpg" alt="">
+                    <p>乔布斯传</p>
+                    <span>我想让我的孩子们了解我，我并不总跟他们在一起，我想让他们知道为什么，也理解我做过的事。</span>
+                </div>
+            </a> 
+            <a href="#">
+                <div class="read_child wow slideInRight" data-wow-delay=".3s">
+                    <img src="./img/活着.jpg" alt="">
+                    <p>活着</p>
+                    <span>生命里难得的温情将被一次次死亡撕扯得粉碎，只剩得老了的富贵伴随着一头老牛在阳光下回忆。</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="read_child wow slideInRight" data-wow-delay=".6s">
+                    <img src="./img/人类简史.jpg" alt="">
+                    <p>人类简史</p>
+                    <span>我们如何登上世界舞台成为万物之灵的？我们了解自己吗？我们过得更快乐吗？</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="read_child wow slideInRight">
+                    <img src="./img/茶花女.jpg" alt="">
+                    <p>茶花女</p>
+                    <span>阿尔芒和玛格丽特之间的爱情体现了人间的真情，人与人之间的关怀、宽容与尊重，体现了人性的爱。</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="read_child wow slideInRight" data-wow-delay=".3s">
+                    <img src="./img/围城.jpg" alt="">
+                    <p>围城</p>
+                    <span>人生处处是“围城”，结而离，离而结，没有了局，存在着永恒的困惑和困境。</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- 歌曲分享 -->
+    <div class="text">好听不过音乐</div>
+    <div class="music">
+        <div id="rotate_controler" style="position: relative;" class="music_father">
+            <div class="music_child wow slideInLeft">
+                <div id='s_fm_pic_img' class="img fm-disk-animation"></div>
+                <p>Love Story</p>
+                <audio src="./Taylor Swift - Love Story (The 1989 World Tour Live).mp3" controls></audio>
+            </div>
+            <div class="music_child wow slideInLeft" data-wow-delay=".3s">
+                <div id='s_fm_pic_img' class="img fm-disk-animation"></div>
+                <p>Love Story</p>
+                <audio src="./Taylor Swift - Love Story (The 1989 World Tour Live).mp3" controls></audio>
+            </div>
+            <div class="music_child wow slideInLeft" data-wow-delay=".6s">
+                <div id='s_fm_pic_img' class="img fm-disk-animation"></div>
+                <p>Love Story</p>
+                <audio src="./Taylor Swift - Love Story (The 1989 World Tour Live).mp3" controls></audio>
+            </div>
+            <div class="music_child wow slideInLeft">
+                <div id='s_fm_pic_img' class="img fm-disk-animation"></div>
+                <p>Love Story</p>
+                <audio src="./Taylor Swift - Love Story (The 1989 World Tour Live).mp3" controls></audio>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="./js/wow.min.js"></script>
+        <script>
+            if  (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+                new  WOW().init();
+            }
+        </script>
+</body>
+</html>

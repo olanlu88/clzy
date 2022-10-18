@@ -1,0 +1,148 @@
+body{
+    background-color: aliceblue;
+}
+.header{
+    background-image: url(../img/8.jpg);
+}
+
+a{
+    text-decoration: none;
+}
+.text{
+    font-size: 32px;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+/* 读物分享 */
+.read{
+    width: auto;
+    height: 820px;
+    position: relative;
+}
+.read .read_father{
+    width: 1100px;
+    height: 770px;
+    background-color: #fde3a7;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    border: 10px solid rgb(197, 197, 197);
+    box-shadow: 5px 5px 10px 5px #4e4e4e;
+}
+.read .read_father .read_child{
+    float: left;
+    margin: 20px 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 270px;
+    height: auto;
+    border: 5px solid rgb(236, 236, 236);
+}
+.read_child img{
+    width: 190px;
+    height: 240px;
+    margin: 5px 40px;
+    border-radius: 10px;
+}
+.read_child p{
+    font-size: 22px;
+    margin: 5px 10px;
+    color: #4e4e4e;
+}
+.read_child span{
+    font-size: 15px;
+    color: #707070;
+    display: block;
+    margin: auto 10px;
+}
+
+/* 音乐部分 */
+.music{
+    width:  auto;
+    height: 700px;
+    position: relative;;
+}
+.music .music_father{
+    width: 1100px;
+    height: 620px;
+    /* background-color: #fceecd;
+    border-radius: 10px; */
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    /* border: 10px solid #fff;
+    box-shadow: 5px 5px 10px 5px #4e4e4e; */
+}
+.music .music_father .music_child{
+    float: left;
+    margin: 20px 40px;
+    /* background-color: #fff;
+    border-radius: 10px; */
+    width: 270px;
+    height: auto;
+    /* border: 5px solid rgb(236, 236, 236); */
+}
+#s_fm_pic_img {
+    width:200px;
+    height:200px;
+    background: url("../img/3.jpg") no-repeat -279px 0;
+    border-radius: 50%;
+    animation-play-state: running;
+    }
+     
+.music_child .img{
+    -moz-animation:rotate 10s linear infinite;
+    -moz-animation-play-state:paused;
+    -ms-animation:rotate 10s linear infinite;
+    -ms-animation-play-state:paused;
+    animation:rotate 10s linear infinite;
+    animation-play-state:paused;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    display:inline-block;
+    margin: 5px 33px;
+}
+.music_child p{
+    color: #4e4e4e;
+    margin: 10px;
+}
+.music_child audio{
+    width: 100%;
+}
+
+
+    .fm-disk-animation{-webkit-animation:rotate 10s linear infinite;-webkit-animation-play-state:paused}
+    @-webkit-keyframes rotate{from{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+    @-moz-keyframes rotate{from{-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}to{-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+    @-ms-keyframes rotate{from{-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+     
+    /* .play{background:url("./img/播放1.png") no-repeat -64px 0px;
+        /* _background-position:-42px -4px; */
+        /* background-size: cover;
+    }  */
+     
+    .pause{background-position:-23px 0;_background-position:-1px -4px}
+    .play:hover{background-position:-64px -40px;_background-position:-42px -102px}
+    .pause:hover{background-position:-23px -40px;_background-position:-1px -102px}
+     
+    #play_pause {
+    height: 36px;
+    width: 34px;
+    display: block;
+    left: 41px;
+    position: absolute;
+    top: 41px;
+    }
